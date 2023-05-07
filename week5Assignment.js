@@ -71,7 +71,8 @@ class Menu {
     
     deleteTeam(){
         let team = prompt('index of team to be deleted')
-            this.teams.splice(new Team(name));
+            this.teams.splice(team, 1);
+            
     }
     displayTeams() {
         let teamString = '';
